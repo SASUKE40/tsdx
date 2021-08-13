@@ -1,4 +1,4 @@
 // regression test for generators
-export function* testGenerator() {
+export function* testGenerator(): any {
   return yield true;
 }
